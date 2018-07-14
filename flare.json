@@ -1,54 +1,33 @@
 {
- "name": "GOAL: Impact Goal",
+ "name": "flare",
  "children": [
   {
-   "name": "Actor 1:  First Person",
+   "name": "analytics",
    "children": [
     {
-     "name": "Impact Measurement",
+     "name": "cluster",
      "children": [
-      {"name": "Increase Productivity", "size": 3938},
-      {"name": "Increase Efficiency", "size": 3812},
-      {"name": "Increase Effectiveness", "size": 6714},
-      {"name": "Improve Process", "size": 743}
+      {"name": "AgglomerativeCluster", "size": 3938},
+      {"name": "CommunityStructure", "size": 3812},
+      {"name": "HierarchicalCluster", "size": 6714},
+      {"name": "MergeEdge", "size": 743}
      ]
     },
-  {
-   "name": "Actor 2: Second Person",
-   "children": [
     {
-     "name": "Impact Measurement",
+     "name": "graph",
      "children": [
-      {"name": "Improve Metrics", "size": 1983},
-      {"name": "Create Criteria", "size": 2047},
-      {"name": "Have Mitigation Tracking", "size": 1375},
-      {"name": "Improve Automation", "size": 8746},
+      {"name": "BetweennessCentrality", "size": 3534},
+      {"name": "LinkDistance", "size": 5731},
+      {"name": "MaxFlowMinCut", "size": 7840},
+      {"name": "ShortestPaths", "size": 5914},
+      {"name": "SpanningTree", "size": 3416}
      ]
     },
-  {
-   "name": "Actor 3: Third Person",
-   "children": [
     {
-     "name": "Impact Measurement",
+     "name": "optimization",
      "children": [
-      {"name": "Needs Review Process", "size": 721},
-      {"name": "Create Level of Importance Taxonomy", "size": 4294},
-      {"name": "Reduce Waste", "size": 9800},
-      {"name": "Improve time-to-production", "size": 1314},
-      {"name": "Regulate within Standards and Policy", "size": 2220}
+      {"name": "AspectRatioBanker", "size": 7074}
      ]
-    },
-    {"name": "DataField", "size": 1759},
-    {"name": "DataSchema", "size": 2165},
-    {"name": "DataSet", "size": 586},
-    {"name": "DataSource", "size": 3331},
-    {"name": "DataTable", "size": 772},
-    {"name": "DataUtil", "size": 3322}
+    }
    ]
-  },
- ]
-}
-]
-}
-]
-}
+  }
